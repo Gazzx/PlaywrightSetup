@@ -21,7 +21,7 @@ Here is an example of a `Dockerfile`:
 FROM mcr.microsoft.com/dotnet/sdk:8.0
 
 # Clone the project
-RUN git clone https://github.com/asfaload/PlaywrightSetup.git /PlaywrightSetup
+RUN git clone https://github.com/Gazzx/PlaywrightSetup.git /PlaywrightSetup
 WORKDIR /PlaywrightSetup
 # Build the program
 RUN dotnet publish
