@@ -3,8 +3,8 @@
 This is a small console program to install Playwright's dotnet version's dependencies and browsers.
 The advertised way is cumbersome and requires powershell, making it needlessly hard to deploy Playwright's dotnet version to production.
 
-This small project should help. It is a [20 lines code program](https://github.com/asfaload/PlaywrightSetup/blob/master/Program.fs),
-of which only 2 take action: [install dependencies](https://github.com/asfaload/PlaywrightSetup/blob/master/Program.fs#L5) and [install browsers](https://github.com/asfaload/PlaywrightSetup/blob/master/Program.fs#L12), making it easy to audit.
+This small project should help. It is a [20 lines code program](https://github.com/Gazzx/PlaywrightSetup/blob/master/Program.fs),
+of which only 2 take action: [install dependencies](https://github.com/Gazzx/PlaywrightSetup/blob/master/Program.fs#L5) and [install browsers](https://github.com/Gazzx/PlaywrightSetup/blob/master/Program.fs#L12), making it easy to audit.
 
 # Origin
 At [Asfaload](https://www.asfaload.com) we use Playwright for some web automation, and got tired of the problematic playwright installation instructions.
